@@ -130,7 +130,7 @@ void deleteLast(Node*& head) {
 
 void deleteAtPosition(Node*& head, int position) {
    if (position < 0) {
-       cout << "Position cannot be negative." << endl;
+      cout << "Position cannot be negative." << endl;
       return;
    }
 
